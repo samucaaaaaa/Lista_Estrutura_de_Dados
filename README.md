@@ -9,5 +9,5 @@ Por fim, com uma uma simples estrutura de "if" e "else" resolvemos o problema.
 ## Exercício 2
 Nesse exercício temos que identificar se o ano é bissexto ou não.
 Foram utilizados os objetos de fluxo de entrada(cin) e saída(cout) para receber e armazenar o ano na variável "ano".
-Após isso, formando uma estrutura de código com "if" e "else", podemos classificar se o ano é bissexto ou não, com as regras do calendário gregoriano.
+Após isso, formando uma estrutura de código com "if" e "else", podemos classificar se o ano é bissexto ou não, de acordo com as regras do calendário gregoriano.
 
