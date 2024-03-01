@@ -5,35 +5,37 @@ using std::cin;
 
 int main()
 {
-    float i, m, a;
+    float indice, massa, altura;
     
     cout << "Informe a massa: ";
-    cin >> m;
+    cin >> massa;
     
     cout << "Informe a altura: ";
-    cin >> a;
-    
-    i = m/(a*a);
-    
-    if(i<17){
+    cin >> altura;
+
+    // Cálculo do Índice de Massa Corporal(IMC)
+    indice = massa/(altura*altura);
+
+    // Classificação do IMC em diferentes categorias de peso
+    if(indice<17){
         cout << "Muito abaixo do peso";
     }
-    else if(i>=17 && i<18.5){
+    else if(indice>=17 && indice<18.5){
         cout << "Abaixo do peso";
     }
-    else if(i>=18.5 && i<25){
+    else if(indice>=18.5 && indice<25){
         cout << "Peso normal";
     }
-    else if(i>=25 && i<30){
+    else if(indice>=25 && indice<30){
         cout << "Acima do peso";
     }
-    else if(i>=30 && i<35){
+    else if(indice>=30 && indice<35){
         cout << "Obesidade";
     }
-    else if(i>=35 && i<40){
+    else if(indice>=35 && indice<40){
         cout << "Obesidade severa";
     }
-    else if(i>=40){
+    else if(indice>=40){
         cout << "Obesidade mórbida";
     }
 
