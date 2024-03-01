@@ -9,7 +9,8 @@ int main()
     
     cout << "Informe o ano: ";
     cin >> ano;
-    
+
+// Verifica se o ano é bissexto    
     if(ano%4==0 && ano%100!=0){
         cout << "O ano é bissexto";
     }
